@@ -1,0 +1,430 @@
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing :border-box;
+}
+.clr {
+    clear: both;
+}
+
+body {
+    background-image: url(4_81.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: table;
+    font-family: "Pixelify Sans", "consolas", sans-serif; 
+}
+
+header {
+    background-image: url(4_81.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 90px;
+    width: 100%;
+    padding: 18px 10px;
+    border-radius: 10px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+header a {
+    font-family: "Rubik Doodle Shadow", "consolas", sans-serif;
+    float: left;
+    color: whitesmoke;
+    text-align: center;
+    padding: 13px;
+    text-decoration: none;
+    font-size: 20px;
+    border: outset ;
+    border-width: 3px;
+    border-radius: 10px;
+    line-height: 10px;
+}
+.clr {
+    clear: both;
+}
+@media screen and (max-width: 600px) {
+    #information_and_video {
+        margin: 50px 0;
+    }
+
+    .myinformationvideo,
+    .Nhat-ky {
+        width: 100%;
+        float: none;
+    }
+}
+header a:hover {
+    background-color:skyblue;
+    
+}
+header #logo a {
+    margin-left: 20px;
+    background-image: url(pxArt\ \(1\).png);
+    background-size: cover;
+    width: 90px;
+    height: 50px;
+}
+#information_right {
+    float: right;
+}
+#information_right a {
+    margin-right: 10px;
+}
+#first {
+    height: 100px;
+}
+#welcome_mywebsite {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(ca859f46883455.5868f5e2f3707.gif);
+    background-size: cover;    
+    background-position-y: 80%;
+    width: 1200px;
+    max-width: 1000px;
+    height: 600px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.xin_chao {
+    font-family: "Pixelify Sans", "consolas", sans-serif;    
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+#Summary {
+    font-family: "Pixelify Sans", "consolas", sans-serif;    
+    color: white;
+    width: fit-content;
+    margin: 15px auto;  
+    font-size: 25px;  
+    text-shadow: 5px 5px 5px gray;
+}
+#Summary:hover {
+    box-shadow: 10px 10px 10px gray;
+}
+
+.card_confiding {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Confiding {
+  background-color: rgba(209, 250, 6, 0.926);  
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  border: inset;
+  border-radius: 7px;
+  box-sizing: 7px 7px 7px lightblue; 
+}
+
+.Confiding h2 {
+    background-color: rgb(241, 241, 114);
+    font-family: "Pixelify Sans", "consolas", sans-serif;    
+    color: skyblue;
+    padding: 10px;
+}
+
+.Confiding p {
+    font-family: "Pixelify Sans", "consolas", sans-serif;    
+    color: black;
+    padding: 10px;
+}
+
+
+.Confiding:hover p {
+    color: white;
+}
+
+.Confiding:hover {
+    color: white;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+#information_and_video {
+    width: 1100px;
+    height: 400px;
+    display: flex;
+    margin: auto;
+      
+}
+
+.myinformationvideo {
+    background-image: url(CEZ.gif);
+    background-size: cover;    
+    background-position-y: 80%;
+    width: 300px;
+    margin: 10px 50px;
+    max-width: none;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.Nhat-ky {
+    margin: 10px 0;
+    width: 600px;
+    height: 300px;
+    border: ridge;   
+    border-radius: 5px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 7%, rgba(110,203,164,1) 61%, rgba(65,179,203,1) 81%);
+    background-attachment: fixed;
+    box-shadow: 5px 5px 5px gray;
+}
+.Nhat-ky p {
+    padding: 20px;
+    font-family: "Pixelify Sans", "consolas", sans-serif;   
+}
+.fa-heart {
+    color: red;
+    animation: 3s linear 0s infinite running colorchange;
+    font-size: 20px;
+}
+@keyframes colorchange {
+    10%{color: yellow;}
+    20%{color: orange;}
+    30%{color: green;}
+    40%{color: blue;}
+    50%{color: pink;}
+    60%{color: blueviolet;}
+    70%{color: plum;}
+    80% {color : darkgoldenrod};
+    90%{color : crimson };
+    100%{background-color: red;}
+}
+
+.card-process {
+    margin-top: 10px auto;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+.process {
+    background-color: greenyellow;
+    width: 225px;
+    height: 350px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 7px lightblue;
+    font-size: 10px;
+}
+
+.me-1 {
+    background-image: url(vibing-cat-pixel-6vszyoz511jz06bc.gif);
+}
+.me-2 {
+    background-image: url(slukk.gif);
+}
+.me-3 {
+    background-image: url(https://64.media.tumblr.com/ecea572a56f83802874e8acc585ea688/61bd7000d6f4164f-22/s500x750/15ec20dbd8a8ae1cdcfec0de29ad8d649376f1ed.gif);
+}
+.me-4 {
+    background-image: url(newmysel.gif);
+}
+.process .img {
+    padding-bottom: 2px;
+    height: 207px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+.process h3,p {
+    padding: 3.5px;
+}
+.process:hover h3,p {
+    color: black;
+}
+
+.process:hover {
+    color: black;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    box-shadow: 15px 15px 15px light;
+}
+
+.myselfovermonth {
+    width: fit-content;
+    margin: auto;
+    color: peachpuff;
+    text-shadow: 15px 15px 15px gray;
+}
+.myselfovermonth:hover {
+    box-shadow: 15px 15px 15px gray;
+}
+
+
+
+#mystory {
+    width: 1000px;
+    height: 450px;
+    margin: 20px auto;  
+    border-radius: 10px;
+   Background: linear-gradient(to right, rgba(1,254,238,1) 5%, rgba(241,253,45,1),orange 93%);
+    align-content: center;
+    border: outset 3px;
+    border-right: gray 5px;
+}
+
+#wrapper {
+    align-items: center;
+    float: right;
+    width: fit-content;
+    height: 52%;  
+    border-left: inset 3.5px;
+    border-bottom: inset 3.5px;
+    border-radius: 10px;
+    padding: 3px;
+}
+#mystory:hover{
+    box-shadow: 5px 5px 5px whitesmoke;
+}
+
+#story {
+    border-radius: 5px;
+}
+
+#story h2,p {
+    padding: 10px 10px;
+}
+#gallery video {
+    height: 200x;
+    width: 385px;
+    object-fit:cover;
+    border: whitesmoke 2px;
+    border-radius: 15px;
+}
+#gallery:hover video {
+    box-shadow: 5px 5px 5px grey;
+}
+.cat-gif {
+    width: 100px;
+    height: 60px;
+    object-fit: cover;
+    margin: 0px 450px;
+}
+
+#learn-from-mistakes {
+    width: 800px;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    margin: 20px auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#learn-from-mistakes h2,p {
+    font-weight:900;
+    color: black
+}
+#learn-from-mistakes:hover {
+    box-shadow: 3px 3px 3px white;
+}
+
+#gallery-top-picture {
+    width: 700px;
+    height: 600px;
+    border-radius: 10px;
+}
+#gallery-top-picture .myimg {
+    float: left;
+    width: 23%;
+    height: 47%;
+    margin: 4px 6px;
+    border-radius: 18px;
+    border: outset;
+    opacity: 0.5;
+    font-size: 9px;
+    transition: 1s;
+}
+#gallery-top-picture h3 {
+    padding: 0px 11px;
+}
+
+#gallery-top-picture img {
+    width: 156px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.myimg:hover {
+    transform: scale(1.3);
+    z-index: 2;
+    box-shadow: 5px 5px 5px whitesmoke;
+}
+#gallery-top-picture .myimg:hover {
+    opacity: 120%;
+}
+#finalconservation p {
+    display: block;
+    margin-top: 100px;
+    border-radius: 5px;
+    border-bottom: outset;
+    border-right: outset;
+    transition: 0.5s;
+    font-style: italic;
+}
+#finalconservation p:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    border-bottom: outset 4px skyblue;
+    border-right: outset 4px skyblue;
+}
+.last-speech {
+    margin: 10px;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+#my-family {
+    margin-top: 900px;
+    width: 800px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#my-family img {
+    width: 700px;
+    height: 500px;
+    margin: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 1s;
+}
+#my-family img:hover {
+    transform: scale(1.3);
+    z-index: 2;
+}
+#goodbye {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(dawn.gif);
+    background-size: cover;    
+    background-position-y: 80%;
+    width: 90%;
+    height: 600px;
+    margin-top : 200px;
+    margin : auto;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    color: white;
+}
